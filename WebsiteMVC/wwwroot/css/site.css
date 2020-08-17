@@ -1,0 +1,212 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.bg-semitransparent-dark {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    position: relative;
+    content: "";
+    /*background: #040404 url("../Images/bg.jpg") top right no-repeat;*/
+    background: rgb(131,58,180);
+    background: linear-gradient(85deg, rgba(131,58,180,1) 0%, rgba(118,32,219,1) 61%, rgba(17,156,194,1) 100%);
+    /*background: rgb(118,32,219) url("../Images/cloud2.png") top right no-repeat;*/
+    background-size: cover;
+    background-attachment: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+}
+
+.u-coloured {
+    text-decoration: underline;
+    text-decoration-color: #119cc2;
+}
+
+/* - Icons - */
+.icon-instagram {
+    background-image: url('../images/icon_insta_w.png');
+    background-size: cover;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.icon-linkedin {
+    background-image: url('../images/icon_linkedin_w.png');
+    background-size: cover;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.icon-twitter {
+    background-image: url('../Images/icon_twitter_w.png');
+    background-size: cover;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.icon-github {
+    background-image: url('../Images/icon_github_w.png');
+    background-size: cover;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.icon-sport {
+    background-image: url('../images/icon_mc_helmet_b.png');
+    background-size: cover;
+    display: inline-block;
+    align-content: center;
+    height: 32px;
+    width: 32px;
+}
+
+
+/* - End of Icons - */
+
+.container-center {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+}
+
+.centralIcons {
+    display: flex;
+    align-items: center;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.navbar-nopadding {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav-link-nopadding {
+    display: block;
+    padding: 0.5rem;
+    padding-left: 0;
+}
+
+.underline {
+    border-bottom: 2px solid #119cc2;
+    display: inline-block;
+    line-height: 1.25;
+}
+
+.btn-outline-light-purple {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-outline-light-purple:hover {
+    color: #833ab4;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.additional-line {
+    content: "";
+    width: 100px;
+    height: 2px;
+    display: inline-block;
+    background: #119cc2;
+    margin: 8px 10px;
+}
+
+.body-padding {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-top: 0.1rem !important;
+    padding-bottom: 0.1rem !important;
+}
+
+.bg-website-blue {
+    background-color: #119cc2 !important;
+}
+
+.bg-website-purple {
+    background-color: #833ab4 !important;
+}
