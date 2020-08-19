@@ -23,24 +23,19 @@ namespace WebsiteMVC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         public IActionResult DogGame()
         {
-            return View();
+            return View("~/Views/Generic/DogGame.cshtml");
         }
 
         public IActionResult Articles()
         {
-            return View();
+            return View("~/Views/Generic/Articles.cshtml");
         }
 
         public IActionResult AboutMe()
         {
-            return View();
+            return View("~/Views/Generic/AboutMe.cshtml");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
